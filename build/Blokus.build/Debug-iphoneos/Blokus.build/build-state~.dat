@@ -1,0 +1,386 @@
+TBlokus
+v7
+r0
+t284068112.153625
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Blokus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Info.plist Blokus-Info.plist
+cCompileXIB /Users/majd/Desktop/Blokus/MainWindow.xib
+cCompileXIB /Users/majd/Desktop/Blokus/RootViewController.xib
+cCompileXIB /Users/majd/Desktop/Blokus/Classes/AboutView.xib
+cProcessPCH /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch.gch Blokus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/main.o /Users/majd/Desktop/Blokus/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/BlokusAppDelegate.o /Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/RootViewController.o /Users/majd/Desktop/Blokus/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/FirstViewController.o /Users/majd/Desktop/Blokus/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus normal armv6
+cGenerateDSYMFile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app.dSYM /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus
+cProcessProductPackaging "/Users/majd/Library/MobileDevice/Provisioning Profiles/61BAC30E-1CD3-420B-A379-5BF768B85633.mobileprovision" /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/embedded.mobileprovision
+cTouch /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent
+cCodeSign /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/Availability.h
+c000000004ABDC79900000000000019F9
+t1253951385
+s6649
+
+N/Users/majd/Desktop/Blokus/Blokus_Prefix.pch
+c000000004B3E5012000000000000013E
+t1262374930
+s318
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/majd/Desktop/Blokus/Classes/AboutView.xib
+c000000004B3E512B00000000000035A7
+t1262375211
+s13735
+
+N/Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.h
+c000000004B3E501200000000000001B3
+t1262374930
+s435
+
+N/Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m
+c000000004B3E5012000000000000032E
+t1262374930
+s814
+i"BlokusAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/majd/Desktop/Blokus/Classes/FirstView.xib
+c000000004B3E50F900000000000014D9
+t1262375161
+s5337
+
+N/Users/majd/Desktop/Blokus/Classes/FirstViewController.h
+c000000004B3E50E00000000000000135
+t1262375136
+s309
+i<UIKit/UIKit.h>
+
+N/Users/majd/Desktop/Blokus/Classes/FirstViewController.m
+c000000004B3E518C00000000000001D8
+t1262375308
+s472
+i"FirstViewController.h"
+
+N/Users/majd/Desktop/Blokus/Classes/RootViewController.h
+c000000004B3E501200000000000000CD
+t1262374930
+s205
+
+N/Users/majd/Desktop/Blokus/Classes/RootViewController.m
+c000000004B3E50120000000000000FFA
+t1262374930
+s4090
+i"RootViewController.h"
+
+N/Users/majd/Desktop/Blokus/MainWindow.xib
+c000000004B3E50120000000000002C5D
+t1262374930
+s11357
+
+N/Users/majd/Desktop/Blokus/RootViewController.xib
+c000000004B3E50120000000000004320
+t1262374930
+s17184
+
+N/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent
+t1262375309
+s319
+
+N/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/Blokus.LinkFileList
+c000000004B3E518C00000000000001C2
+t1262375308
+s450
+
+N/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/BlokusAppDelegate.o
+t1262375309
+s42300
+
+N/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/FirstViewController.o
+t1262375309
+s30496
+
+N/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/RootViewController.o
+t1262375309
+s32892
+
+N/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/main.o
+t1262375309
+s6524
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+t1262375312
+s408
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app.dSYM
+t1262375309
+s102
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/AboutView.nib
+t1262375309
+s1517
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus
+t1262375309
+s18020
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/FirstView.nib
+t2
+s0
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Info.plist
+t1262375308
+s626
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/MainWindow.nib
+t1262375308
+s2011
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/PkgInfo
+t1262375308
+s8
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/ResourceRules.plist
+t1262375308
+s485
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/RootViewController.nib
+t1262375308
+s1388
+
+N/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/embedded.mobileprovision
+t1262375309
+s60250
+
+N/Users/majd/Desktop/Blokus/main.m
+c000000004B3E50120000000000000164
+t1262374930
+s356
+i<UIKit/UIKit.h>
+
+N/Users/majd/Library/MobileDevice/Provisioning Profiles/61BAC30E-1CD3-420B-A379-5BF768B85633.mobileprovision
+c000000004B261669000000000000EB5A
+t1260787305
+s60250
+
+N/var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch.gch
+t1262375309
+s7876792
+
+NBlokus-Info.plist
+c000000004B3E5012000000000000038D
+t1262374930
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies284068108#284068108#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCodeSign /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+s284068109.795634
+e284068112.153464
+r1
+xCodeSign
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/Blokus.app284068109#284068112#0(0"0(0#0#58"/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app4300885448#577"    cd /Users/majd/Desktop/Blokus    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Alex Kuhn" --resource-rules=/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/ResourceRules.plist --entitlements /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app0#
+
+CCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/BlokusAppDelegate.o /Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s284068109.566381
+e284068109.650932
+r1
+xCompileC
+xbuild/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/BlokusAppDelegate.o
+x/Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m284068109#284068109#0(0"0(0#0#54"/Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m4300885448#1610"    cd /Users/majd/Desktop/Blokus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-generated-files.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-own-target-headers.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-all-target-headers.hmap -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-project-headers.hmap -F/Users/majd/Desktop/Blokus/build/Debug-iphoneos -I/Users/majd/Desktop/Blokus/build/Debug-iphoneos/include -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources/armv6 -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources -include /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch -c /Users/majd/Desktop/Blokus/Classes/BlokusAppDelegate.m -o /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/BlokusAppDelegate.o0#
+
+CCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/FirstViewController.o /Users/majd/Desktop/Blokus/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s284068109.671057
+e284068109.735640
+r1
+xCompileC
+xbuild/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/FirstViewController.o
+x/Users/majd/Desktop/Blokus/Classes/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/majd/Desktop/Blokus/Classes/FirstViewController.m284068109#284068109#0(0"0(0#0#56"/Users/majd/Desktop/Blokus/Classes/FirstViewController.m4300885448#1614"    cd /Users/majd/Desktop/Blokus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-generated-files.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-own-target-headers.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-all-target-headers.hmap -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-project-headers.hmap -F/Users/majd/Desktop/Blokus/build/Debug-iphoneos -I/Users/majd/Desktop/Blokus/build/Debug-iphoneos/include -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources/armv6 -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources -include /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch -c /Users/majd/Desktop/Blokus/Classes/FirstViewController.m -o /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/FirstViewController.o0#
+
+CCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/RootViewController.o /Users/majd/Desktop/Blokus/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s284068109.651017
+e284068109.728064
+r1
+xCompileC
+xbuild/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/RootViewController.o
+x/Users/majd/Desktop/Blokus/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/majd/Desktop/Blokus/Classes/RootViewController.m284068109#284068109#0(0"0(0#0#55"/Users/majd/Desktop/Blokus/Classes/RootViewController.m4300885448#1612"    cd /Users/majd/Desktop/Blokus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-generated-files.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-own-target-headers.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-all-target-headers.hmap -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-project-headers.hmap -F/Users/majd/Desktop/Blokus/build/Debug-iphoneos -I/Users/majd/Desktop/Blokus/build/Debug-iphoneos/include -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources/armv6 -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources -include /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch -c /Users/majd/Desktop/Blokus/Classes/RootViewController.m -o /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/main.o /Users/majd/Desktop/Blokus/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s284068109.565196
+e284068109.670971
+r1
+xCompileC
+xbuild/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/main.o
+x/Users/majd/Desktop/Blokus/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/majd/Desktop/Blokus/main.m284068109#284068109#0(0"0(0#0#33"/Users/majd/Desktop/Blokus/main.m4300885448#1576"    cd /Users/majd/Desktop/Blokus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-generated-files.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-own-target-headers.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-all-target-headers.hmap -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-project-headers.hmap -F/Users/majd/Desktop/Blokus/build/Debug-iphoneos -I/Users/majd/Desktop/Blokus/build/Debug-iphoneos/include -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources/armv6 -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources -include /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch -c /Users/majd/Desktop/Blokus/main.m -o /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/majd/Desktop/Blokus/Classes/AboutView.xib
+s284068108.913949
+e284068109.159622
+r1
+xCompileXIB
+x/Users/majd/Desktop/Blokus/Classes/AboutView.xib
+lSLF07#2@32"CompileXIB Classes/AboutView.xib284068108#284068109#0(0"0(0#0#48"/Users/majd/Desktop/Blokus/Classes/AboutView.xib4300885448#437"    cd /Users/majd/Desktop/Blokus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/AboutView.nib /Users/majd/Desktop/Blokus/Classes/AboutView.xib0#
+
+CCompileXIB /Users/majd/Desktop/Blokus/Classes/FirstView.xib
+r0
+
+CCompileXIB /Users/majd/Desktop/Blokus/MainWindow.xib
+s284068108.605242
+e284068108.915410
+r1
+xCompileXIB
+x/Users/majd/Desktop/Blokus/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib284068108#284068108#0(0"0(0#0#41"/Users/majd/Desktop/Blokus/MainWindow.xib4300885448#431"    cd /Users/majd/Desktop/Blokus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/MainWindow.nib /Users/majd/Desktop/Blokus/MainWindow.xib0#
+
+CCompileXIB /Users/majd/Desktop/Blokus/RootViewController.xib
+s284068108.605934
+e284068108.913870
+r1
+xCompileXIB
+x/Users/majd/Desktop/Blokus/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib284068108#284068108#0(0"0(0#0#49"/Users/majd/Desktop/Blokus/RootViewController.xib4300885448#447"    cd /Users/majd/Desktop/Blokus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/RootViewController.nib /Users/majd/Desktop/Blokus/RootViewController.xib0#
+
+CCpResource build/Debug-iphoneos/Blokus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s284068108.589636
+e284068108.605178
+r1
+xCpResource
+xbuild/Debug-iphoneos/Blokus.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist284068108#284068108#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist7813796288837021696#457"    cd /Users/majd/Desktop/Blokus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app0#
+
+CGenerateDSYMFile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app.dSYM /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus
+s284068109.776854
+e284068109.790302
+r1
+xGenerateDSYMFile
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app.dSYM
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Blokus.app.dSYM build/Debug-iphoneos/Blokus.app/Blokus284068109#284068109#0(0"0(0#0#65"/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus4300885448#323"    cd /Users/majd/Desktop/Blokus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus -o /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app.dSYM0#
+
+CLd /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus normal armv6
+s284068109.735714
+e284068109.776766
+r1
+xLd
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus
+xnormal
+xarmv6
+lSLF07#2@70"Link /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus284068109#284068109#0(0"0(0#0#0"4300885448#830"    cd /Users/majd/Desktop/Blokus    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/majd/Desktop/Blokus/build/Debug-iphoneos -F/Users/majd/Desktop/Blokus/build/Debug-iphoneos -filelist /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Objects-normal/armv6/Blokus.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Blokus0#
+
+CProcessInfoPlistFile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Info.plist Blokus-Info.plist
+s284068108.597191
+e284068108.600108
+r1
+xProcessInfoPlistFile
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Info.plist
+xBlokus-Info.plist
+lSLF07#2@25"Process Blokus-Info.plist284068108#284068108#0(0"0(0#0#44"/Users/majd/Desktop/Blokus/Blokus-Info.plist4300885448#510"    cd /Users/majd/Desktop/Blokus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Blokus-Info.plist -genpkginfo /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/ResourceRules.plist -o /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/Info.plist0#
+
+CProcessPCH /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch.gch Blokus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s284068109.159756
+e284068109.565062
+r1
+xProcessPCH
+x/var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch.gch
+xBlokus_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Blokus_Prefix.pch284068109#284068109#0(0"0(0#0#44"/Users/majd/Desktop/Blokus/Blokus_Prefix.pch4300885448#1487"    cd /Users/majd/Desktop/Blokus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-generated-files.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-own-target-headers.hmap -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-all-target-headers.hmap -iquote /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus-project-headers.hmap -F/Users/majd/Desktop/Blokus/build/Debug-iphoneos -I/Users/majd/Desktop/Blokus/build/Debug-iphoneos/include -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources/armv6 -I/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/DerivedSources -c /Users/majd/Desktop/Blokus/Blokus_Prefix.pch -o /var/folders/od/odt1kklDEqKI1GEx89dZVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Blokus_Prefix-fgzblvxiyoerxcfnxvhopwdrorfl/Blokus_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/majd/Library/MobileDevice/Provisioning Profiles/61BAC30E-1CD3-420B-A379-5BF768B85633.mobileprovision" /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/embedded.mobileprovision
+s284068109.790390
+e284068109.792025
+r1
+xProcessProductPackaging
+x/Users/majd/Library/MobileDevice/Provisioning Profiles/61BAC30E-1CD3-420B-A379-5BF768B85633.mobileprovision
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/majd/Library/MobileDevice/Provisioning Profiles/61BAC30E-1CD3-420B-A379-5BF768B85633.mobileprovision" build/Debug-iphoneos/Blokus.app/embedded.mobileprovision284068109#284068109#0(0"0(0#0#83"/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/embedded.mobileprovision4300885448#397"    cd /Users/majd/Desktop/Blokus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/majd/Library/MobileDevice/Provisioning Profiles/61BAC30E-1CD3-420B-A379-5BF768B85633.mobileprovision" -o /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent
+s284068109.794269
+e284068109.795594
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent
+lSLF07#2@174"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent284068109#284068109#0(0"0(0#0#86"/Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent4300885448#407"    cd /Users/majd/Desktop/Blokus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/majd/Desktop/Blokus/build/Blokus.build/Debug-iphoneos/Blokus.build/Blokus.xcent0#
+
+CTouch /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+s284068109.792064
+e284068109.794216
+r1
+xTouch
+x/Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app
+lSLF07#2@64"Touch /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app284068109#284068109#0(0"0(0#0#0"4300885448#239"    cd /Users/majd/Desktop/Blokus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/majd/Desktop/Blokus/build/Debug-iphoneos/Blokus.app0#
+
